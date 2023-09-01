@@ -4,5 +4,96 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: orangered
+
+}
+.registro{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+
+}
+
+
+form{
+  width: 40%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 25px;
+  border: 2px solid rgb(255, 194, 172);
+  background-color: rgb(255, 215, 141);
+  
+}
+small{
+  color: darkred;
+}
+
+form div{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+input{
+  padding: 5px;
+  border-radius: 5px;
+
+}
+select{
+  padding: 5px;
+
+  border-radius: 5px;
+}
+button{
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(255, 195, 117);
+  border: none;
+  border-radius: 10px
+}
+button:hover{
+  background-color: rgb(245, 159, 47);
+  letter-spacing: 2px;
+}
+
+
+.frase{
+  width: 70%;
+font-size: 25px;
+text-align: center;
+  padding: 55px;
+  border-radius: 25px;
+  border: 2px solid rgb(255, 194, 172);
+  background-color: rgb(255, 215, 141);
+  margin: 0 auto;
+  
+}
+.Violeta{
+  background-color: blueviolet;
+}
+.Azul{
+  background-color: blue;
+}
+.Rojo{
+  background-color: brown;
+}
+.Verde{
+  background-color: green;
+}
+a{
+  display: block;
+  padding: 10px;
+  width: 150px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: rgb(0, 0, 0);
+  border: 3px solid wheat;
 }

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/head',{
+        title : 'PERFIL'
+    }) %>
+    
+    
+<body  class="<%= locals.userData && locals.userData.color %>">
+    <p class="frase">Hola <b> <%= userData.name %></b>. <br> 
+      "ESTAS EN LA VISTA DEL PERFIL"  <hr>
+     <a href="/logout">Cerrar Cesión</a>
+    
+</body>
+</html>
